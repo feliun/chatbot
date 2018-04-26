@@ -48,6 +48,13 @@ module.exports = () => {
         });
     });
 
+    app.post('/blacklist/delete', (req, res) => {
+      const email = 'felipe.polo@guidesmiths.com';
+      collections.blacklist.deleteOne({ email })
+        .then(() => res.json({ success: true }))
+        .catch(() => res.json({ success: false }));
+    });
+
     cb();
   };
 
