@@ -2,8 +2,8 @@ module.exports = () => {
   const collections = { };
 
   const start = ({ mongo }, cb) => {
-    collections.sent_alerts = mongo.collection('sent_alerts');
-    // collections.landing_content = mongo.collection('landing_content');
+    collections.saved_search = mongo.collection('saved_search');
+    collections.blacklist = mongo.collection('blacklist');
 
     return cb(null, collections);
   };
