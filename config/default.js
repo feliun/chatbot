@@ -3,6 +3,7 @@ module.exports = {
     host: '0.0.0.0',
     port: 3000,
   },
+  mongo: { url: `mongodb://${process.env.MONGO_USER || 'node'}:${process.env.MONGO_PWD || 'node'}@${process.env.MONGO_HOST || '127.0.0.1'}/${process.env.MONGO_DB}` },
   routes: { proxy: { routes: { '/api/1.0/other': 'http://other.example.com' } } },
   logger: {
     transport: 'bunyan',

@@ -1,0 +1,69 @@
+[
+  {
+    "user": {
+      "id": 1007,
+      "username": "feliun",
+      "firstName": "Felipe",
+      "lastName": "Polo",
+      "email": "felipe.polo@guidesmiths.com",
+      "talentMatch": {
+        "optIn": false
+      },
+      "displayName": "Feliun"
+    },
+    "sentDate": "2018-04-21T00:59:56.322+0000"
+  },
+  {
+    "user": {
+      "id": 6003,
+      "username": "LuigiApplicationCustomiser",
+      "firstName": "Stefano",
+      "lastName": "Ceshi Berrini",
+      "email": "stefano.ceschiberrini@tesglobal.com",
+      "displayName": "Stefano"
+    },
+    "sentDate": "2018-04-21T00:59:56.383+0000"
+  },
+  {
+    "user": {
+      "id": 2082608786,
+      "username": "tamas_barna",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "tamas.barna@guidesmiths.com",
+      "talentMatch": {
+        "optIn": true
+      },
+      "displayName": "First name"
+    },
+    "sentDate": "2018-04-21T02:59:56.474+0000"
+  },
+  {
+    "user": {
+      "id": 12345,
+      "firstName": "Bob",
+      "lastName": "Bobson",
+      "username": "bobbyson",
+      "email": "success+job_alert_xXBeiqB@simulator.amazonses.com",
+      "talentMatch": {
+        "optIn": false
+      },
+      "displayName": "Bob"
+    },
+    "sentDate": "2018-04-23T12:45:09.965+0000"
+  },
+  {
+    "user": {
+      "id": 12345,
+      "firstName": "Bob",
+      "lastName": "Bobson",
+      "username": "bobbyson",
+      "email": "success+job_alert_3oCiYmK@simulator.amazonses.com",
+      "talentMatch": {
+        "optIn": false
+      },
+      "displayName": "Bob"
+    },
+    "sentDate": "2018-04-24T09:43:20.238+0000"
+  }
+]

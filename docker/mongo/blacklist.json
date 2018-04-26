@@ -1,0 +1,23 @@
+[
+  {
+    "email" : "felipe.polo@guidesmiths.com",
+    "status" : "bounce",
+    "reason" : "smtp; 550 5.1.1 user unknown",
+    "details" : {
+        "bounceType" : "Permanent",
+        "bounceSubType" : "General",
+        "bouncedRecipients" : [
+            {
+                "emailAddress" : "felipe.polo@guidesmiths.com",
+                "action" : "failed",
+                "status" : "5.1.1",
+                "diagnosticCode" : "smtp; 550 5.1.1 user unknown"
+            }
+        ],
+        "timestamp" : "2017-05-16T09:13:16.679Z",
+        "feedbackId" : "0102015c10887255-9d9eff98-8df9-452a-8190-644ae6f7c5f9-000000",
+        "remoteMtaIp" : "207.171.163.188",
+        "reportingMTA" : "dsn; a4-4.smtp-out.eu-west-1.amazonses.com"
+    }
+  }
+]
