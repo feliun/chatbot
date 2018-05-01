@@ -19,11 +19,16 @@ module.exports = () => {
       res.sendFile(join(process.cwd(), 'public', 'views', 'yoigo.html'));
     });
 
+    app.get('/hive', (req, res) => {
+      res.sendFile(join(process.cwd(), 'public', 'views', 'hive.html'));
+    });
+
     app.get('/bot', (req, res) => {
       const { company }  = req.query || 'tes';
       const idByCompany = {
         tes: process.env.TES_BOT_ID,
         yoigo: process.env.YOIGO_BOT_ID,
+        hive: process.env.HIVE_BOT_ID,
       };
       res.json({
         id: idByCompany[company],
